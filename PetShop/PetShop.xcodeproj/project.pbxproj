@@ -1,0 +1,697 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC991C062B78B2B7001C65B1 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC991C052B78B2B7001C65B1 /* SplashScreen.swift */; };
+		FCD2C1F22B775D4100056919 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD2C1F12B775D4100056919 /* Router.swift */; };
+		FCD2C1F42B775E1800056919 /* ShimmerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD2C1F32B775E1800056919 /* ShimmerView.swift */; };
+		FCD2C1F62B775E6600056919 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD2C1F52B775E6600056919 /* Logger.swift */; };
+		FCD2C1F82B775EB400056919 /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD2C1F72B775EB400056919 /* NetworkMonitor.swift */; };
+		FCDE42E22B77322600BDB8C4 /* PetShopApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDE42E12B77322600BDB8C4 /* PetShopApp.swift */; };
+		FCDE42E42B77322600BDB8C4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDE42E32B77322600BDB8C4 /* ContentView.swift */; };
+		FCDE42E62B77322600BDB8C4 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDE42E52B77322600BDB8C4 /* Item.swift */; };
+		FCDE42E82B77322700BDB8C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCDE42E72B77322700BDB8C4 /* Assets.xcassets */; };
+		FCDE42EB2B77322700BDB8C4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCDE42EA2B77322700BDB8C4 /* Preview Assets.xcassets */; };
+		FCDE42F72B77322800BDB8C4 /* PetShopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDE42F62B77322800BDB8C4 /* PetShopTests.swift */; };
+		FCDE43012B77322800BDB8C4 /* PetShopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDE43002B77322800BDB8C4 /* PetShopUITests.swift */; };
+		FCDE43032B77322800BDB8C4 /* PetShopUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDE43022B77322800BDB8C4 /* PetShopUITestsLaunchTests.swift */; };
+		FCDE43152B7732B100BDB8C4 /* BaseNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDE43142B7732B100BDB8C4 /* BaseNavigationView.swift */; };
+		FCDE43172B77330000BDB8C4 /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDE43162B77330000BDB8C4 /* ViewExtension.swift */; };
+		FCDE43192B77330C00BDB8C4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDE43182B77330C00BDB8C4 /* Constants.swift */; };
+		FCDE431B2B77365B00BDB8C4 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDE431A2B77365B00BDB8C4 /* ColorExtension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FCDE42F32B77322800BDB8C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCDE42D62B77322600BDB8C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCDE42DD2B77322600BDB8C4;
+			remoteInfo = PetShop;
+		};
+		FCDE42FD2B77322800BDB8C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCDE42D62B77322600BDB8C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCDE42DD2B77322600BDB8C4;
+			remoteInfo = PetShop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC991C052B78B2B7001C65B1 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		FCD2C1F12B775D4100056919 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		FCD2C1F32B775E1800056919 /* ShimmerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShimmerView.swift; sourceTree = "<group>"; };
+		FCD2C1F52B775E6600056919 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		FCD2C1F72B775EB400056919 /* NetworkMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMonitor.swift; sourceTree = "<group>"; };
+		FCDE42DE2B77322600BDB8C4 /* PetShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCDE42E12B77322600BDB8C4 /* PetShopApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetShopApp.swift; sourceTree = "<group>"; };
+		FCDE42E32B77322600BDB8C4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FCDE42E52B77322600BDB8C4 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		FCDE42E72B77322700BDB8C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCDE42EA2B77322700BDB8C4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FCDE42EC2B77322700BDB8C4 /* PetShop.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PetShop.entitlements; sourceTree = "<group>"; };
+		FCDE42ED2B77322700BDB8C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCDE42F22B77322800BDB8C4 /* PetShopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PetShopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCDE42F62B77322800BDB8C4 /* PetShopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetShopTests.swift; sourceTree = "<group>"; };
+		FCDE42FC2B77322800BDB8C4 /* PetShopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PetShopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCDE43002B77322800BDB8C4 /* PetShopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetShopUITests.swift; sourceTree = "<group>"; };
+		FCDE43022B77322800BDB8C4 /* PetShopUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetShopUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FCDE43142B7732B100BDB8C4 /* BaseNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigationView.swift; sourceTree = "<group>"; };
+		FCDE43162B77330000BDB8C4 /* ViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
+		FCDE43182B77330C00BDB8C4 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		FCDE431A2B77365B00BDB8C4 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCDE42DB2B77322600BDB8C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCDE42EF2B77322800BDB8C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCDE42F92B77322800BDB8C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCD2C1F92B775EE200056919 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FCDE42E72B77322700BDB8C4 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FCDE42D52B77322600BDB8C4 = {
+			isa = PBXGroup;
+			children = (
+				FCDE42E02B77322600BDB8C4 /* PetShop */,
+				FCDE42F52B77322800BDB8C4 /* PetShopTests */,
+				FCDE42FF2B77322800BDB8C4 /* PetShopUITests */,
+				FCDE42DF2B77322600BDB8C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCDE42DF2B77322600BDB8C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCDE42DE2B77322600BDB8C4 /* PetShop.app */,
+				FCDE42F22B77322800BDB8C4 /* PetShopTests.xctest */,
+				FCDE42FC2B77322800BDB8C4 /* PetShopUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCDE42E02B77322600BDB8C4 /* PetShop */ = {
+			isa = PBXGroup;
+			children = (
+				FCDE431C2B77382600BDB8C4 /* AppDelegate */,
+				FCDE43132B7732A500BDB8C4 /* Infrastructure */,
+				FCDE43112B77328200BDB8C4 /* Helpers */,
+				FCDE43102B77327900BDB8C4 /* Models */,
+				FCDE430F2B77327300BDB8C4 /* Views */,
+				FCDE42E52B77322600BDB8C4 /* Item.swift */,
+				FCD2C1F92B775EE200056919 /* Resources */,
+				FCDE42E92B77322700BDB8C4 /* Preview Content */,
+				FCDE42EC2B77322700BDB8C4 /* PetShop.entitlements */,
+				FCDE42ED2B77322700BDB8C4 /* Info.plist */,
+			);
+			path = PetShop;
+			sourceTree = "<group>";
+		};
+		FCDE42E92B77322700BDB8C4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FCDE42EA2B77322700BDB8C4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FCDE42F52B77322800BDB8C4 /* PetShopTests */ = {
+			isa = PBXGroup;
+			children = (
+				FCDE42F62B77322800BDB8C4 /* PetShopTests.swift */,
+			);
+			path = PetShopTests;
+			sourceTree = "<group>";
+		};
+		FCDE42FF2B77322800BDB8C4 /* PetShopUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FCDE43002B77322800BDB8C4 /* PetShopUITests.swift */,
+				FCDE43022B77322800BDB8C4 /* PetShopUITestsLaunchTests.swift */,
+			);
+			path = PetShopUITests;
+			sourceTree = "<group>";
+		};
+		FCDE430F2B77327300BDB8C4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FCDE43122B77329500BDB8C4 /* Commons */,
+				FC991C052B78B2B7001C65B1 /* SplashScreen.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FCDE43102B77327900BDB8C4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FCDE43112B77328200BDB8C4 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				FCDE43162B77330000BDB8C4 /* ViewExtension.swift */,
+				FCDE43182B77330C00BDB8C4 /* Constants.swift */,
+				FCDE431A2B77365B00BDB8C4 /* ColorExtension.swift */,
+				FCD2C1F32B775E1800056919 /* ShimmerView.swift */,
+				FCD2C1F52B775E6600056919 /* Logger.swift */,
+				FCD2C1F72B775EB400056919 /* NetworkMonitor.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		FCDE43122B77329500BDB8C4 /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Commons;
+			sourceTree = "<group>";
+		};
+		FCDE43132B7732A500BDB8C4 /* Infrastructure */ = {
+			isa = PBXGroup;
+			children = (
+				FCDE43142B7732B100BDB8C4 /* BaseNavigationView.swift */,
+				FCD2C1F12B775D4100056919 /* Router.swift */,
+			);
+			path = Infrastructure;
+			sourceTree = "<group>";
+		};
+		FCDE431C2B77382600BDB8C4 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				FCDE42E12B77322600BDB8C4 /* PetShopApp.swift */,
+				FCDE42E32B77322600BDB8C4 /* ContentView.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCDE42DD2B77322600BDB8C4 /* PetShop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCDE43062B77322800BDB8C4 /* Build configuration list for PBXNativeTarget "PetShop" */;
+			buildPhases = (
+				FCDE42DA2B77322600BDB8C4 /* Sources */,
+				FCDE42DB2B77322600BDB8C4 /* Frameworks */,
+				FCDE42DC2B77322600BDB8C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PetShop;
+			productName = PetShop;
+			productReference = FCDE42DE2B77322600BDB8C4 /* PetShop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FCDE42F12B77322800BDB8C4 /* PetShopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCDE43092B77322800BDB8C4 /* Build configuration list for PBXNativeTarget "PetShopTests" */;
+			buildPhases = (
+				FCDE42EE2B77322800BDB8C4 /* Sources */,
+				FCDE42EF2B77322800BDB8C4 /* Frameworks */,
+				FCDE42F02B77322800BDB8C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCDE42F42B77322800BDB8C4 /* PBXTargetDependency */,
+			);
+			name = PetShopTests;
+			productName = PetShopTests;
+			productReference = FCDE42F22B77322800BDB8C4 /* PetShopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FCDE42FB2B77322800BDB8C4 /* PetShopUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCDE430C2B77322800BDB8C4 /* Build configuration list for PBXNativeTarget "PetShopUITests" */;
+			buildPhases = (
+				FCDE42F82B77322800BDB8C4 /* Sources */,
+				FCDE42F92B77322800BDB8C4 /* Frameworks */,
+				FCDE42FA2B77322800BDB8C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCDE42FE2B77322800BDB8C4 /* PBXTargetDependency */,
+			);
+			name = PetShopUITests;
+			productName = PetShopUITests;
+			productReference = FCDE42FC2B77322800BDB8C4 /* PetShopUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCDE42D62B77322600BDB8C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					FCDE42DD2B77322600BDB8C4 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					FCDE42F12B77322800BDB8C4 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = FCDE42DD2B77322600BDB8C4;
+					};
+					FCDE42FB2B77322800BDB8C4 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = FCDE42DD2B77322600BDB8C4;
+					};
+				};
+			};
+			buildConfigurationList = FCDE42D92B77322600BDB8C4 /* Build configuration list for PBXProject "PetShop" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCDE42D52B77322600BDB8C4;
+			productRefGroup = FCDE42DF2B77322600BDB8C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCDE42DD2B77322600BDB8C4 /* PetShop */,
+				FCDE42F12B77322800BDB8C4 /* PetShopTests */,
+				FCDE42FB2B77322800BDB8C4 /* PetShopUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCDE42DC2B77322600BDB8C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCDE42EB2B77322700BDB8C4 /* Preview Assets.xcassets in Resources */,
+				FCDE42E82B77322700BDB8C4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCDE42F02B77322800BDB8C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCDE42FA2B77322800BDB8C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCDE42DA2B77322600BDB8C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC991C062B78B2B7001C65B1 /* SplashScreen.swift in Sources */,
+				FCD2C1F82B775EB400056919 /* NetworkMonitor.swift in Sources */,
+				FCD2C1F22B775D4100056919 /* Router.swift in Sources */,
+				FCDE42E42B77322600BDB8C4 /* ContentView.swift in Sources */,
+				FCDE43152B7732B100BDB8C4 /* BaseNavigationView.swift in Sources */,
+				FCDE42E62B77322600BDB8C4 /* Item.swift in Sources */,
+				FCDE42E22B77322600BDB8C4 /* PetShopApp.swift in Sources */,
+				FCD2C1F62B775E6600056919 /* Logger.swift in Sources */,
+				FCDE43172B77330000BDB8C4 /* ViewExtension.swift in Sources */,
+				FCD2C1F42B775E1800056919 /* ShimmerView.swift in Sources */,
+				FCDE431B2B77365B00BDB8C4 /* ColorExtension.swift in Sources */,
+				FCDE43192B77330C00BDB8C4 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCDE42EE2B77322800BDB8C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCDE42F72B77322800BDB8C4 /* PetShopTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCDE42F82B77322800BDB8C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCDE43032B77322800BDB8C4 /* PetShopUITestsLaunchTests.swift in Sources */,
+				FCDE43012B77322800BDB8C4 /* PetShopUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FCDE42F42B77322800BDB8C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCDE42DD2B77322600BDB8C4 /* PetShop */;
+			targetProxy = FCDE42F32B77322800BDB8C4 /* PBXContainerItemProxy */;
+		};
+		FCDE42FE2B77322800BDB8C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCDE42DD2B77322600BDB8C4 /* PetShop */;
+			targetProxy = FCDE42FD2B77322800BDB8C4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FCDE43042B77322800BDB8C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FCDE43052B77322800BDB8C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCDE43072B77322800BDB8C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PetShop/PetShop.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PetShop/Preview Content\"";
+				DEVELOPMENT_TEAM = 87A46U8PS5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PetShop/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dltduong.vn.PetShop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FCDE43082B77322800BDB8C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PetShop/PetShop.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PetShop/Preview Content\"";
+				DEVELOPMENT_TEAM = 87A46U8PS5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PetShop/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dltduong.vn.PetShop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FCDE430A2B77322800BDB8C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 87A46U8PS5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dltduong.vn.PetShopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PetShop.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PetShop";
+			};
+			name = Debug;
+		};
+		FCDE430B2B77322800BDB8C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 87A46U8PS5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dltduong.vn.PetShopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PetShop.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PetShop";
+			};
+			name = Release;
+		};
+		FCDE430D2B77322800BDB8C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 87A46U8PS5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dltduong.vn.PetShopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PetShop;
+			};
+			name = Debug;
+		};
+		FCDE430E2B77322800BDB8C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 87A46U8PS5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dltduong.vn.PetShopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PetShop;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCDE42D92B77322600BDB8C4 /* Build configuration list for PBXProject "PetShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCDE43042B77322800BDB8C4 /* Debug */,
+				FCDE43052B77322800BDB8C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCDE43062B77322800BDB8C4 /* Build configuration list for PBXNativeTarget "PetShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCDE43072B77322800BDB8C4 /* Debug */,
+				FCDE43082B77322800BDB8C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCDE43092B77322800BDB8C4 /* Build configuration list for PBXNativeTarget "PetShopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCDE430A2B77322800BDB8C4 /* Debug */,
+				FCDE430B2B77322800BDB8C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCDE430C2B77322800BDB8C4 /* Build configuration list for PBXNativeTarget "PetShopUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCDE430D2B77322800BDB8C4 /* Debug */,
+				FCDE430E2B77322800BDB8C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCDE42D62B77322600BDB8C4 /* Project object */;
+}
