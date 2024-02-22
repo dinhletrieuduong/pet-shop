@@ -13,16 +13,5 @@ import SwiftUI
 
 struct Constants {
     
-    struct AppColor {
-//        let appBlue: Color = Color(hex: "D7DDFD")
-//        let appBlack = 0F1415
-//        let appGray = AEAEC3
-//        let appBrown = AC5E23
-//        let appBlackBrown = 544D51
-//        let appYellow = D9A823
-//        let appGray2 = 73778E
-
-    }
-    
     
 }

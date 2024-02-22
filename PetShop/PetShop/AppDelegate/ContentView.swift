@@ -9,6 +9,8 @@ import SwiftUI
 import SwiftData
 
 struct ContentView: View {
+    @EnvironmentObject var authManager: AuthManager
+    
     @Environment(\.modelContext) private var modelContext
     @Query private var items: [Item]
 
@@ -18,6 +20,11 @@ struct ContentView: View {
     var body: some View {
         
 //        BaseNavigationView()
+//        if authManager.authState != .signedOut {
+//            HomeView()
+//        } else {
+//            LoginView()
+//        }
         
         if !isSplashScreenPresented {
             SplashScreen(isSplashScreenPresented: $isSplashScreenPresented)
