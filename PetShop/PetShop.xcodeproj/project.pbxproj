@@ -18,6 +18,7 @@
 		FC31612F2B874E440025051C /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC31612E2B874E440025051C /* AuthManager.swift */; };
 		FC3161312B874EE50025051C /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3161302B874EE50025051C /* LoginView.swift */; };
 		FC3161332B8752E30025051C /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3161322B8752E30025051C /* HomeView.swift */; };
+		FC3161362B875A960025051C /* URLSessionApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3161352B875A960025051C /* URLSessionApiClient.swift */; };
 		FC991C062B78B2B7001C65B1 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC991C052B78B2B7001C65B1 /* SplashScreen.swift */; };
 		FCD2C1F22B775D4100056919 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD2C1F12B775D4100056919 /* Router.swift */; };
 		FCD2C1F42B775E1800056919 /* ShimmerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD2C1F32B775E1800056919 /* ShimmerView.swift */; };
@@ -64,6 +65,7 @@
 		FC31612E2B874E440025051C /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
 		FC3161302B874EE50025051C /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		FC3161322B8752E30025051C /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		FC3161352B875A960025051C /* URLSessionApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionApiClient.swift; sourceTree = "<group>"; };
 		FC991C052B78B2B7001C65B1 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
 		FCD2C1F12B775D4100056919 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		FCD2C1F32B775E1800056919 /* ShimmerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShimmerView.swift; sourceTree = "<group>"; };
@@ -133,6 +135,14 @@
 				FC31612E2B874E440025051C /* AuthManager.swift */,
 			);
 			path = Manager;
+			sourceTree = "<group>";
+		};
+		FC3161342B875A870025051C /* API */ = {
+			isa = PBXGroup;
+			children = (
+				FC3161352B875A960025051C /* URLSessionApiClient.swift */,
+			);
+			path = API;
 			sourceTree = "<group>";
 		};
 		FCD2C1F92B775EE200056919 /* Resources */ = {
@@ -247,6 +257,7 @@
 		FCDE43132B7732A500BDB8C4 /* Infrastructure */ = {
 			isa = PBXGroup;
 			children = (
+				FC3161342B875A870025051C /* API */,
 				FC31612D2B874E390025051C /* Manager */,
 				FC31611B2B87308A0025051C /* Style */,
 				FCDE43142B7732B100BDB8C4 /* BaseNavigationView.swift */,
@@ -415,6 +426,7 @@
 				FCDE42E62B77322600BDB8C4 /* Item.swift in Sources */,
 				FCDE42E22B77322600BDB8C4 /* PetShopApp.swift in Sources */,
 				FCD2C1F62B775E6600056919 /* Logger.swift in Sources */,
+				FC3161362B875A960025051C /* URLSessionApiClient.swift in Sources */,
 				FC3161332B8752E30025051C /* HomeView.swift in Sources */,
 				FC3161212B8732390025051C /* AppLabel.swift in Sources */,
 				FCDE43172B77330000BDB8C4 /* ViewExtension.swift in Sources */,
